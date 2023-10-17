@@ -1,0 +1,16 @@
+ .colorSet{
+    background-color: #011F5B;
+ }
+
+ .sidebar ul li:hover{
+   background-color: rgb(117, 117, 117);
+   border-radius: 5px;
+ }
+
+ .sidebar ul li:hover{
+   color: white;
+ }
+ a{
+   text-decoration: none;
+   color: white;
+ }

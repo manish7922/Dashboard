@@ -1,0 +1,45 @@
+/* 
+.rounded {
+    border-radius: 50%;
+  }
+  
+  .shadow {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+   */
+
+   .bg-green {
+    background-color: rgb(123, 193, 123);
+  }
+  
+  .logo-container {
+    width: 50px; /* Adjust the size as needed */
+    height: 70px; /* Adjust the size as needed */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+ .first {
+    background: lightgreen;
+    color: green;
+    width: 70px;
+    height: 70px;
+    align-items: center;
+    border-radius: 50%;
+  }
+  .logo{
+    font-size: 30px;
+  }
+ .d{
+    color: green;
+    font-weight: bold;
+
+ }
+ .e{
+    color: black;
+    margin-left: 5em;
+    margin-top: -1.5em;
+ }
+  

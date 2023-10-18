@@ -70,7 +70,7 @@ export default class LineChart extends Component {
               },
             maintainAspectRatio: false, 
             responsive: true,
-            aspectRatio: 1, // Optional: If you want to maintain a specific aspect ratio
+            aspectRatio: 1, 
             height: 200,
         
           }}

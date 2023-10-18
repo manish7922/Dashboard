@@ -1,6 +1,12 @@
 import React, { Component } from "react";
 import "bootstrap-icons/font/bootstrap-icons.css";
-import {  FaChevronDown, FaChevronLeft, FaChevronRight, FaKey, FaProductHunt } from "react-icons/fa";
+import {
+  FaChevronDown,
+  FaChevronLeft,
+  FaChevronRight,
+  FaKey,
+  FaProductHunt,
+} from "react-icons/fa";
 import "./sidebar.css";
 export default class Sidebar extends Component {
   render() {
@@ -13,77 +19,116 @@ export default class Sidebar extends Component {
               <strong>Dashboard</strong>
             </span>
           </div>
-          <hr className="mt-3" />
-          <ul className="nav nav-pills flex-column ">
-            <li className="nav-item p-1 mt-1">
-              <a href="#">
-              <FaKey className="me-3  fs-8  align-items-center" />
-              <span className="fs-8 align-items-center">
-                <strong>Dashboard</strong>
-              </span>
+    
+          <ul className="nav nav-pills flex-column mt-4 ">
+            <li className="SetClass nav-item p-1 mt-1 d-flex align-items-center">
+              <a href="#" className="d-flex align-items-center">
+                <FaKey className="me-3 fs-8 align-items-center" />
+                <span className="fs-8 align-items-center">
+                  <strong>Dashboard</strong>
+                </span>
               </a>
-              <span className="ms-auto"> <FaChevronRight   /></span>
-             
-            </li>
-            <li className="nav-item p-1 mt-1">
-            <a href="#">
-              <FaProductHunt className="me-3 fs-8  align-items-center" />
-              <span className="fs-8  align-items-center" >
-                <strong>Product</strong>
-              </span>
-              </a>
-              <span className="ms-auto" > <FaChevronRight   /></span>
-            </li>
-            <li className="nav-item p-1 mt-1">
-            <a href="#">
-              <i class="bi bi-person-square me-3 fs-8 align-items-center"></i>
-              <span className="fs-8  align-items-center">
-                <strong>customers</strong>
-              </span>
-              </a>
-              <span className="ms-auto" > <FaChevronRight   /></span>
-            </li>
-            <li className="nav-item p-1 mt-1">
-            <a href="#">
-                            <i class="bi bi-currency-bitcoin me-3 fs-8  align-items-center"></i>
-              <span className="fs-8  align-items-center">
-                <strong>income</strong>
-              </span>
-              </a>
-              <span className="ms-auto"> <FaChevronRight   /></span>
-            </li>
-            <li className="nav-item p-1 mt-1">
-            <a href="#">
-              <i class="bi bi-gear-wide-connected me-3 fs-8  align-items-center" ></i>
-              <span className="fs-8  align-items-center">
-                <strong>Promote</strong>
-              </span>
-</a>
-              <span className="ms-auto"  > <FaChevronRight   /></span>
-               
-            </li>
-            <li className="nav-item p-1 mt-1 ">
-            <a href="#"></a>
-              <i class="bi bi-question-octagon me-3 fs-8  align-items-center"></i>
-              <span className="fs-8  align-items-center">
-                <strong>Help</strong>
-              </span>
-              <span className="ms-auto"  > <FaChevronRight   /></span>
+              {/* <span className="ms-auto">
+                <FaChevronRight />
+              </span> */}
             </li>
 
+            <li className="nav-item p-1 mt-1 d-flex align-items-center">
+              <a href="#" className="d-flex align-items-center">
+                <FaProductHunt className="me-3 fs-8 align-items-center" />
+                <span className="fs-8 align-items-center">
+                  <strong>Product</strong>
+                </span>
+              </a>
+              <span className="ms-auto">
+                <FaChevronRight />
+              </span>
+            </li>
+
+            <li className="nav-item p-1 mt-1 d-flex align-items-center">
+              <a href="#" className="d-flex align-items-center">
+                <i class="bi bi-person-square me-3 fs-8 align-items-center"></i>
+                <span className="fs-8 align-items-center">
+                  <strong>Customers</strong>
+                </span>
+              </a>
+              <span className="ms-auto">
+                <FaChevronRight />
+              </span>
+            </li>
+
+            <li className="nav-item p-1 mt-1 d-flex align-items-center">
+              <a href="#" className="d-flex align-items-center">
+                <i class="bi bi-currency-bitcoin me-3 fs-8 align-items-center"></i>
+                <span className="fs-8 align-items-center">
+                  <strong>Income</strong>
+                </span>
+              </a>
+              <span className="ms-auto">
+                <FaChevronRight />
+              </span>
+            </li>
+            <li className="nav-item p-1 mt-1 d-flex align-items-center">
+              <a href="#" className="d-flex align-items-center">
+                <i class="bi bi-gear-wide-connected me-3 fs-8 align-items-center"></i>
+                <span className="fs-8 align-items-center">
+                  <strong>Promote</strong>
+                </span>
+              </a>
+              <span className="ms-auto">
+                <FaChevronRight />
+              </span>
+            </li>
+
+            <li className="nav-item p-1 mt-1 d-flex align-items-center">
+              <a href="#" className="d-flex align-items-center">
+                <i class="bi bi-question-octagon me-3 fs-8 align-items-center"></i>
+                <span className="fs-8 align-items-center">
+                  <strong>Help</strong>
+                </span>
+              </a>
+              <span className="ms-auto">
+                <FaChevronRight />
+              </span>
+            </li>
           </ul>
         </div>
         <div>
-    
-          <div className="nav-item mt-1 endBar shadow-sm p-3 mb-5  rounded" style={{backgroundColor:"#000080"}}>
-            {/* <i class="bi bi-question-octagon me-2 fs-8"></i> */}
-            <img src="6.jpg" alt="" className="me-2"  style={{ width: '50px', height: '50px', objectFit: 'cover' ,borderRadius:"50%"}} />
-            <span className="fs-8">
-              <strong>yourSelf</strong>
-            </span>
-            <span className="me-5"></span>
-                <FaChevronDown   />
-          </div>
+<div
+  className="SetClass nav-item p-2 mt-1 d-flex align-items-center"
+  style={{
+    backgroundColor: "#000080",
+    width: "210px", 
+    height: "50px", 
+    borderRadius:"10px"
+  }}
+>
+  <a href="#" className="d-flex align-items-center" >
+    <img
+      src="6.jpg"
+      alt=""
+      className="me-2"
+      style={{
+        width: "30px",
+        height: "30px",
+        objectFit: "cover",
+        borderRadius: "50%",
+      }}
+    />
+        <div className="d-flex flex-column">
+      <span style={{ fontSize: "10px" }}>
+        <strong>Manish</strong>
+      </span>
+      <span style={{ fontSize: "10px" }}>Project Manager</span>
+    </div>
+
+  </a>
+  <span className="ms-auto">
+    <FaChevronDown />
+  </span>
+</div>
+
+
         </div>
       </div>
     );

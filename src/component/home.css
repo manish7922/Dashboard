@@ -30,9 +30,43 @@
     border-radius: 50%;
   }
   .logo{
-    font-size: 30px;
+    font-size: 35px;
   }
- .d{
+  .Second{
+    background: rgb(192, 225, 245);
+    color: blueviolet;
+    width: 70px;
+    height: 70px;
+    align-items: center;
+    border-radius: 50%;
+  }
+  .logo1{
+    font-size: 35px;
+  }
+  .Third{
+    background: skyblue;
+    color: blue;
+    width: 70px;
+    height: 70px;
+    align-items: center;
+    border-radius: 50%;
+  }
+  .logo2{
+    font-size: 35px;
+  }
+
+  .Four{
+    background: pink;
+    color: red;
+    width: 70px;
+    height: 70px;
+    align-items: center;
+    border-radius: 50%;
+  }
+  .logo3{
+    font-size: 35px;
+  }
+ /* .d{
     color: green;
     font-weight: bold;
 
@@ -41,5 +75,35 @@
     color: black;
     margin-left: 5em;
     margin-top: -1.5em;
- }
+ } */
   
+ .setSearch1{
+    /* background-color: lightgray; */
+    border-radius: 10px;
+    height: 28px;
+ }
+
+ .setSearch1 input{
+    border: none;
+    outline: none;
+    /* background-color: lightgrey; */
+    height: 100%;
+    width: 90px;
+    font-size: medium;
+ }
+
+ /* .ProductSell1{
+    margin-left: -9em;
+ }
+
+ .stock{
+margin-left: 20em;
+ } */
+
+ .price{
+
+ }
+
+ .slaes{
+
+ }

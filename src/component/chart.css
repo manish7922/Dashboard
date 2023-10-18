@@ -1,0 +1,140 @@
+/* Larger screens */
+@media (min-width: 768px) {
+    .position-absolute {
+      width: 50%;
+      height: 50%;
+    }
+  }
+  
+  /* Smaller screens */
+  @media (max-width: 767px) {
+    .position-absolute {
+      width: 75%;
+      height: 75%;
+    }
+  }
+
+  /* Small screens */
+@media (max-width: 767px) {
+    .donut-chart-container {
+      width: 100%;
+    }
+  }
+  
+  /* Medium screens */
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .donut-chart-container {
+      width: 80%;
+    }
+  }
+  
+  /* Large screens */
+  @media (min-width: 1024px) {
+    .donut-chart-container {
+      width: 100%;
+    }
+  }
+  
+
+  /* .donutchart-arcs-path,
+.donutchart-legend-item,
+.donutchart-legend-item-label {
+  cursor: pointer;
+}
+
+.donutchart-innertext-label {
+  font-size: 18px;
+}
+
+.donutchart-innertext-value {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.donutchart-arcs-path,
+.donutchart-legend-item {
+  fill-opacity: 0;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+  animation-name: DrawLine, FillIn;
+  animation-delay: 0.5s, 2s;
+  animation-duration: 3s, 1s;
+  stroke-dasharray: 1500;
+  stroke-dashoffset: 1500;
+}
+
+@keyframes DrawLine {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes FillIn {
+  from {
+    fill-opacity: 0;
+  }
+  to {
+    fill-opacity: 1;
+  }
+}
+
+.selected.donutchart-legend-item-label,
+.toggled.donutchart-legend-item-label {
+  fill: #f44336;
+  text-decoration: underline;
+}
+
+<DonutChart
+        data={graph}
+        onMouseEnter={(item) => console.log(`mousing entering: ${item.label}`)}
+        onMouseLeave={(item) => console.log(`mouse leaving: ${item.label}`)}
+        onClick={(item, toggled) =>
+          toggled
+            ? console.log(`selecting: ${item.label}`)
+            : console.log(`unselecting: ${item.label}`)
+        }
+      />
+
+
+      const graph = [
+        {
+          label: 'Give you up',
+          value: 1208.84,
+        },
+        {
+          label: 'Let you down',
+          value: 198.51,
+        },
+        {
+          label: 'Run around',
+          value: 754,
+          className: 'classNameTest',
+        },
+        {
+          label: '',
+          value: 500,
+          isEmpty: true,
+        },
+        {
+          label: 'Desert you',
+          value: 760,
+        },
+        {
+          label: 'Make you cry',
+          value: 1108,
+        },
+        {
+          label: 'Say goodbye',
+          value: 358,
+        },
+        {
+          label: 'Tell a lie',
+          value: 879,
+        },
+        {
+          label: 'Hurt you',
+          value: 1250,
+        },
+      ]; */
+
+  

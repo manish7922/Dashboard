@@ -14,3 +14,8 @@
    text-decoration: none;
    color: white;
  }
+
+ .sidebar ul li.SetClass {
+  background-color: rgb(117, 117, 117);
+  border-radius: 5px;
+}

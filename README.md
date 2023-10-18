@@ -68,3 +68,28 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+    {/* <div className="className col-12 col-sm-6 col-md-4 col-lg-3 p-3 ">
+              <div className="d-flex justify-content-arround aligh-items-center py-4 px-2 bg-white  shadow-sm" style={{borderRadius:"10px"}}>
+              <div className="first d-flex align-items-center justify-content-center">
+      <FaDollarSign className="logo" />
+    </div>
+    <div className="mx-2 mt-2">
+        <span style={{ fontSize: "7px" }}>Earning</span>
+        <div className="fs-5" style={{marginTop:"-2px",fontWeight:"bold"}}><strong>$168K</strong></div>
+        <div className="row" style={{ fontSize: "8px" }}>
+  <div className="col-12 ">
+    <span className="d">
+      <FaArrowUp />37.8%,
+      <p className="e">This Month</p>
+      </span>
+  </div>
+  
+</div>
+
+    </div>
+        
+              </div>
+            </div> */}
